@@ -28,10 +28,10 @@ const App = () => {
   return (
     <div className="App">
       <View model={Model(intent)} />
-      <button onClick={handleStart}>Start Timer:</button>
-      <button onClick={handleStop}>Stop Timer:</button>
-      <button onClick={handleContinue}>Continue Timer:</button>
-      <button onClick={handleReset}>Reset Timer:</button>
+      <button class="btn btn-success" onClick={handleStart}>Start Timer:</button>
+      <button class="btn btn-danger" onClick={handleStop}>Stop Timer:</button>
+      <button class="btn btn-primary" onClick={handleContinue}>Continue Timer:</button>
+      <button class="btn btn-dark" onClick={handleReset}>Reset Timer:</button>
     </div>
   );
 }
